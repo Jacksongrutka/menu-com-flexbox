@@ -1,0 +1,46 @@
+@media (max-width: 768px){
+    .cabecalho{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+@media (max-width: 425px){
+    :root{
+        --tamanho-fonte-logo:40px;
+        --tamanho-fonte-texto-cabecalho:40px;
+    }
+    .cabecalho{
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        margin-top: 45px;
+    } 
+    .cabecalho .logo{
+        align-items: center;
+        padding-bottom: 50px;
+    } 
+     .cabecalho .logo .titulo{
+        font-size: var(--tamanho-fonte-logo,40px);
+        font-weight: 800;
+    } 
+     .cabecalho .menu{
+        padding-top: 50px;
+    } 
+     .cabecalho .menu .lista{
+        flex-direction: column;
+        align-items: center;
+        min-width: 320px;
+    
+    
+    } 
+     .cabecalho .menu .lista a{
+        font-size: var(--tamanho-fonte-texto-cabecalho,40px);
+    } 
+     .cabecalho .mebu .lista li{
+        padding: 25px 0px;
+    }
+    .cabecalho .menu .lista .item-destacado.botao-destacado a{
+        font-size: 18px;
+
+    }
+}

@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    margin: 55px;
+    margin-left: 95px;
+    align-items: center;
+}
+.cabecalho .logo{
+    display: flex;
+    align-items: center;
+
+}
+.cabecalho .titulo{
+    font-family: var(--fonte-padrao, sans-serif) ;
+    font-size: var(--tamanho-fonte-logo,20px);
+}
+.cabecalho .menu .lista {
+    display: flex;
+    min-width: 500px;
+    justify-content: flex-end;
+    list-style: none;
+}
+.cabecalho .menu .lista li{
+    padding: 15px;
+}
+.cabecalho .menu .lista a{
+    color:var(--cor-cabecalho-padrao,#000);
+    font-size: var(--tamanho-fonte-texto-cabecalho,15px);
+    font-family: var(--fonte-padrao, sans-serif);
+   
+}
+.cabecalho .menu .lista .item-destacado{
+    padding: 4px 9px;
+}
+.cabecalho .menu .link-destacado{
+    background-color:var(--cor-backgroud-destaque,#5bc241) ;
+    padding: 11px 6px;
+
+}
+.cabecalho .menu .link-destacado {
+    color: var(--cor-texto-destaque , #fff);
+}
+.cabecalho .menu .link-destacado.botao-destacado{
+    padding: 0px 15px 0px 15px;
+}
+.cabecalho .menu .item .botao{
+    border-radius: 10px;
+    padding: 10px 21px 11px 21px;
+}
+
